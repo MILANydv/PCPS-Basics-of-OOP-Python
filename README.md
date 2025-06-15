@@ -1,73 +1,36 @@
-# OOP Example in Python
+# OOP Examples in Python
 
-This repository contains a clean, robust, and DRY example of Object-Oriented Programming (OOP) in Python. The example models a simple property management system inspired by platforms like Airbnb, with a focus on professional design, maintainability, and extensibility.
+This repository is a collection of basic Object-Oriented Programming (OOP) examples in Python, created specifically for the students of **PCPS, Kupondole**. These examples are designed for educational purposes to help beginners and students understand the core concepts of OOP in a clear and practical way.
 
-## Features
+## Purpose
 
-- **Abstract Base Classes**: Demonstrates the use of Python's `abc` module for abstraction.
-- **Inheritance & Polymorphism**: Shows how to extend base classes and override methods.
-- **Encapsulation**: Uses class attributes and methods to encapsulate data and behavior.
-- **Theme Compatibility**: Includes a `Theme` class to demonstrate how objects can be styled or themed.
-- **DRY Principle**: Code is organized to avoid repetition and maximize reusability.
-- **Professional Design**: Follows clean code and design principles for readability and maintainability.
+- **Educational Resource**: Made for PCPS, Kupondole students.
+- **Beginner Friendly**: All examples are well-commented and easy to follow.
+- **Demonstrates OOP Principles**: Covers abstraction, inheritance, encapsulation, and polymorphism.
 
-## File Structure
+## File Overview
 
-- `oop_example.py` — Main Python file containing all classes and example usage.
-- `README.md` — This file.
+### 1. `oop_example.py`
 
-## Classes Overview
+A robust, professional example inspired by property management systems (like Airbnb). Demonstrates advanced OOP concepts such as abstract base classes, inheritance, and theme compatibility. Includes classes for different property types and a manager to handle them.
 
-- **Theme**: Represents a UI theme with primary and accent colors.
-- **Property (Abstract Base Class)**: Base class for all property types.
-- **Apartment**: Inherits from `Property`, adds a `floor` attribute.
-- **House**: Inherits from `Property`, adds a `garden` attribute.
-- **PropertyManager**: Manages a collection of properties.
+### 2. `oop_animals_example.py`
 
-## Example Usage
+Models an animal hierarchy (Dog, Cat, etc.) to show inheritance, abstraction, and polymorphism in a relatable way. Includes a theme system and an animal shelter manager. Great for understanding how OOP can be used to represent real-world relationships.
 
-The `main()` function in `oop_example.py` demonstrates how to:
+### 3. `oop_simple_example.py`
 
-- Create themes
-- Instantiate different property types
-- Add properties to a manager
-- Display all property information
+A very simple and beginner-friendly example that models a basic `Car` class. Demonstrates object creation, attributes, and methods with clear comments. Perfect for those new to OOP and Python.
 
-### Run the Example
+## How to Use
 
-Make sure you have Python 3.7 or higher installed.
+Each Python file is standalone and can be run directly. Make sure you have Python 3.x installed.
 
 ```bash
-python oop_example.py
+python <filename>.py
 ```
 
-You should see output similar to:
-
-```
-Added Apartment: City View Loft
-Added House: Sunny Villa
-
-All Properties:
-Apartment - City View Loft
-Location: New York
-Price per night: $150.0
-Theme: Theme(Modern, Primary: #222831, Accent: #FFD369)
-
-Floor: 12
-
-House - Sunny Villa
-Location: California
-Price per night: $300.0
-Theme: Theme(Classic, Primary: #F5F5DC, Accent: #8B4513)
-
-Garden: Yes
-```
-
-## Customization
-
-- You can add more property types by extending the `Property` class.
-- Themes can be expanded for more complex UI or styling needs.
-- The system is designed to be easily extensible and maintainable.
+Replace `<filename>` with the file you want to run (e.g., `oop_simple_example.py`).
 
 ## License
 
